@@ -2,7 +2,7 @@
 - 해당 컴포넌트는 App.vue의 컴포넌트로 등록되어 사용된다.
 - 역할: 네비게이션(메뉴)을 v-for와 RouterLink를 이용하여 구성한다.
 - navigations라는 배열 내부에 name과 href 등 링크를 위한 속성값을 갖는 객체를 삽입하여 관리한다.
-- store의 'about' 모듈에 있는 state값을 가져온다.
+- aboutStore 에 있는 state값을 가져온다.
 - methods
   ▶ isMatch(): 특정 형식의 url 접근 시 fullpath를 콘솔에 반환한다.
   ▶ toAbout(): routerLink와 to 속성 없이 페이지 이동을 구현하기 위한 함수

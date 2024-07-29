@@ -1,3 +1,8 @@
+/**
+- 해당 컴포넌트는 MovieList.vue, MovieItem.vue, Movie.vue, About.vue의 컴포넌트로 등록되어 사용된다.
+- 역할: 페이지 로딩 중 화면에 출력되는 로딩 아이콘(spinner)
+- props: spinner의 기본 속성값을 설정하여 등록한다.
+*/
 <template>
   <div
     :style="{

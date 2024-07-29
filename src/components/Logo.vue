@@ -1,3 +1,6 @@
+/**
+- 역할: 로고 클릭 시 Home으로 이동하는 링크를 담당한다. 
+ */
 <template>
   <RouterLink
     to="/"

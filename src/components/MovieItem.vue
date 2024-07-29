@@ -1,3 +1,14 @@
+/**
+- 해당 컴포넌트는 MovieList.vue의 컴포넌트로 등록되어 사용된다.
+- 역할: MovieList.vue에서 출력된 영화 리스트 중 하나를 클릭하면 해당 영화의 상세정보를 출력하는 부분
+- components: Loader
+- props: movie 객체를 상위 component인 MovieList.vue로 부터 받아온다.
+- imageLoading 변수를 이용하여 Loader의 출력 여부를 설정한다.
+- mounted(): 해당 라이프 사이클 시점에서 init() 메소드를 실행한다.
+- methods
+   ▶ init(): 영화 poster가 로딩되는 동안 동작하는 함수로, 각 영화의 poster 유무를 확인하여 포스터가 없는 경우 예외처리 후 Loader의 작동을 종료한다. 
+      poster가 있는 경우, loadImage 플러그인을 실행 후 Loader의 작동을 종료한다.
+*/
 <template>
   <!-- 라우터 링크를 사용하여 검색된 영화를 클릭하면 상세페이지로 나오도록 하는 기능 -->
   <RouterLink

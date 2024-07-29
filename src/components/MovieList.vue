@@ -1,3 +1,9 @@
+/**
+- 해당 컴포넌트는 Home.vue의 컴포넌트로 등록되어 사용된다.
+- 역할: 검색 정보를 바탕으로 OMDb_API 에서 반환된 영화 리스트를 출력한다.
+- components: MovieItem(각 영화의 상세정보), Loader(로딩 중 출력되는 spinner)
+- movieStore의 state를 가져온다.
+*/
 <template>
   <div class="container">
     <div 

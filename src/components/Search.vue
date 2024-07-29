@@ -1,3 +1,9 @@
+/**
+- 해당 컴포넌트는 Home.vue의 컴포넌트로 등록되어 사용된다.
+- 역할: 영화 검색에 필요한 input 태그 및 필터(select - options), 검색기능을 관리한다.
+- methods
+   ▶ apply(): 입력된 검색정보를 movieStore의 searchMovies() 메소드의 매개변수로 전달한다.
+*/
 <template>
   <div class="container">
     <input 
